@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(22,21,21);
+    margin:0 ;
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: orangered;
+    text-transform:uppercase;
+    font-size:20px;
+    padding:20px;
+}
+
+
+header ul{
+    list-style: none;
+    display:flex;
+    margin: 0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+head ul li{
+    padding:20px;
+  
+}
+#title{
+    font-size: 30px;
+}
+.menu span {
+    background-color: white;
+    margin: 5px;
+    width: 30px;
+    height: 2px;
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+h1 {
+    color: orangered;
+    font-size: 50px;
+    
+}
+main ul  {
+    list-style: none;
+  display: flex;
+    margin: 0px;
+    padding: 20px;
+}
+div select{
+    background-color: black;
+    color: orangered;
+    font-size: 20px;
+
+}
+.sam {
+    color: orangered;
+display: flex;
+text-align: center;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px ;
+    color: black;
+}
+main img {
+    height: 200px;
+    padding: 30px;
+
+}
+main {
+    text-align: center;
+}
+main ul li {
+    padding: 20px;
+    color: rgb(177, 203, 177);
+    background-color: rgb(217, 200, 191);
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+
+
+
+}
+ul div {
+    padding: 10px;
+    background-color:rgb(16, 25, 16);
+    border-radius: 8px;
+}
+header nav a:hover{
+    color: chartreuse;
+}
+.btn{
+    background-color: rgb(138, 53, 53);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+@media(max-width:760px) {
+    .menu{
+        display:flex;
+    }
+    header nav a{
+        display:none;
+    }
+    main h1{
+        font-size: 50px;
+    }
+
+main ul  {
+    flex-direction: column;
+}
+}
+ol {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+    
+  
+   
+}
+.button {
+    background-color: rgb(138, 53, 53); ;
+    border-radius: 18px;
+}
+div select {
+    color:orangered;
+    
+    
+}
+.gowsi{
+    padding: 10px;
+   
+}
+.pump
+{
+    height: 800px;
+
+}
+main h1:hover {
+    color: rgb(173, 184, 163);
+   
+}
